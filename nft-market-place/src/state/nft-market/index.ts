@@ -1,6 +1,5 @@
 import { TransactionResponse } from "@ethersproject/abstract-provider";
 import { CreationValues } from 'modules/CreationPage/CreationForm'
-import React from 'react'
 import { CONTRACT_ABI } from "constant";
 import useSigner from 'state/signer';
 import {BigNumber, Contract, Transaction, ethers} from 'ethers';
